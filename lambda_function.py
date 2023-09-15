@@ -21,6 +21,6 @@ def lambda_handler(event, context):
 
     return handle_request_for(event)
 
-result = lambda_handler({ "resource": "/dishes", "httpMethod": "GET", "queryStringParameters": {}, "multiValueQueryStringParameters": {} }, {})
+# result = lambda_handler({ "resource": "/dishes", "httpMethod": "GET", "queryStringParameters": {}, "multiValueQueryStringParameters": {} }, {})
 
-print(result)
+# print(result)

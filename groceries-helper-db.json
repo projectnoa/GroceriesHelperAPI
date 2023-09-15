@@ -1,1 +1,98 @@
-{"data": {"ingredients": [{"id": 1, "name": "Sea Salt", "location_id": 1}, {"id": 2, "name": "Pepper", "location_id": 2}], "locations": [{"id": 1, "name": "Pantry"}, {"id": 2, "name": "Refrigerator"}]}}
+{
+	"data": {
+		"groceries": [{
+				"id": 1,
+				"ingredient_id": 1,
+				"amount": "2 cups"
+			},
+			{
+				"id": 2,
+				"ingredient_id": 3,
+				"amount": "3 cups"
+			},
+			{
+				"id": 3,
+				"ingredient_id": 2,
+				"amount": "1 cups"
+			}
+		],
+		"ingredients": [{
+				"id": 1,
+				"title": "Carrot",
+				"description": "A carrot",
+				"locations": [
+                    {
+                        "location_id": 1
+                    }
+                ],
+				"image": ""
+			},
+			{
+				"id": 2,
+				"title": "kombucha",
+				"description": "Some Kombucha",
+				"locations": [
+                    {
+                        "location_id": 2
+                    },
+                    {
+                        "location_id": 3
+                    }
+                ],
+				"image": ""
+			},
+			{
+				"id": 3,
+				"title": "Chicken",
+				"description": "Chicken breast",
+				"locations": [
+                    {
+                        "location_id": 1
+                    },
+                    {
+                        "location_id": 2
+                    },
+                    {
+                        "location_id": 3
+                    }
+                ],
+				"image": ""
+			}
+		],
+		"dishes": [{
+			"id": 1,
+			"title": "Karaage",
+			"description": "Fried chicken",
+			"image": "",
+			"ingredients": [{
+					"ingredient_id": 1,
+					"amount": "2 cups"
+				},
+				{
+					"ingredient_id": 2,
+					"amount": "3 cups"
+				},
+				{
+					"ingredient_id": 3,
+					"amount": "1 cups"
+				}
+			]
+		}],
+		"locations": [{
+				"id": 1,
+				"title": "Trader Joes",
+				"description": "Trader Joes"
+			},
+			{
+				"id": 2,
+				"title": "Trader Joes",
+				"description": "Trader Joes"
+			},
+			{
+				"id": 3,
+				"title": "Trader Joes",
+				"description": "Trader Joes"
+			}
+		]
+	}
+}
